@@ -1,0 +1,1 @@
+SELECT id, product_name, price, (1-sale_price/price)*100 as 'sale (%)' FROM bt.product;
